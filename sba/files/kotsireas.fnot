@@ -1,0 +1,2 @@
+ring([bb,b,c,dd,d,ff,f],0,2,32003);
+buch((bb-dd)*b-d*bb+dd*d-2*ff+2,(bb+dd-2*ff)*b+(-d-2)*bb+(-dd+2*ff)*d+2*dd,b^2+(-2*d-2)*b+d^2-2*d+f+1,bb^2*b^3-1,dd^2*d^3-1,ff^2*f^3-1);

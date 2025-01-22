@@ -1,0 +1,22 @@
+ring([ca, cb, cc, cd, sa, sb, sc, sd],0,2,0);
+buch(ca^2 + sa^2 - 1,
+cb^2 + sb^2 - 1,
+cc^2 + sc^2 - 1,
+cd^2 + sd^2 - 1,
+4*(2*ca*cb*cc - 2*ca*cb*sc - 4*ca*cb - 2*ca*cc*sb - 2*ca*sb*sc
+- 3*ca*sb + 6*ca + 2*cb*cc*sa + 6*cb*cc + 2*cb*sa*sc + 3*cb*sa
+- 6*cb*sc - 12*cb + 2*cc*sa*sb - 6*cc*sb - cc - 2*sa*sb*sc - 4*sa*sb
+- 6*sb*sc - 9*sb + 7*sc + 12),
+- 8*ca*cb*cd + 16*ca*cb*sd + 8*ca*cb - 16*ca*cd*sb - 8*ca*sb*sd
+- 12*ca*sb - 28*ca + 16*cb*cd*sa - 32*cb*cd + 8*cb*sa*sd + 12*cb*sa
+- 86*cb*sd - 73*cb - 8*cd*sa*sb + 86*cd*sb + 16*cd + 16*sa*sb*sd
++ 8*sa*sb - 30*sa - 32*sb*sd + 12*sb + 28*sd + 112,
+2*(140*ca*cb*cc - 490*ca*cb*cd + 700*ca*cb*sc - 980*ca*cb*sd
+ + 28*ca*cb + 700*ca*cc*sb + 980*ca*cd*sb - 140*ca*sb*sc - 490*ca*sb*sd
+ - 1134*ca*sb + 392*ca - 700*cb*cc*sa + 3430*cb*cc - 980*cb*cd*sa
+ + 3430*cb*cd + 140*cb*sa*sc + 490*cb*sa*sd + 1134*cb*sa + 770*cb*sc
+ - 4165*cb*sd - 5047*cb + 3150*cc*cd + 140*cc*sa*sb + 770*cc*sb - 2450*cc*sd
+ - 4030*cc - 490*cd*sa*sb + 4165*cd*sb - 2450*cd*sc - 5740*cd + 700*sa*sb*sc
+ - 980*sa*sb*sd + 28*sa*sb - 882*sa - 3430*sb*sc + 3430*sb*sd - 2394*sb
+ - 3150*sc*sd + 910*sc + 2695*sd + 9899),
+280*cc*cd - 240*cc - 336*cd - 280*sc*sd + 391);
